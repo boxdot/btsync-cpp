@@ -17,14 +17,13 @@ Usage:
 
 The module depends on [json-cpp](https://github.com/mrtazz/json-cpp) and libcurl.
 
-	$ git submodule init
-	$ git submodule update
+	$ git submodule update --init
 	$ make
 
 # Testing
 
 The only test depends on boost and [Catch](https://github.com/philsquared/Catch). Build with
 
-	$ make test
+	$ make tests
 
 and run the executable file in `bin`. Note that BitTorrent Sync must run in the api mode and you probably need to adapt the credentials in `Makefile`.
