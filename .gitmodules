@@ -1,0 +1,6 @@
+[submodule "deps/catch"]
+	path = deps/catch
+	url = git://github.com/philsquared/Catch.git
+[submodule "deps/json-cpp"]
+	path = deps/json-cpp
+	url = https://github.com/mrtazz/json-cpp.git
