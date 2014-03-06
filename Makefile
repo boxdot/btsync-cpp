@@ -17,7 +17,7 @@ JSONCPP_OBJ = $(patsubst %.cpp,build/%.o,$(JSONCPP_SRC))
 vpath %.cpp src:test:$(JSONCPP)/src/lib_json
 
 all: lib/libbtsync.a
-test: lib/libbtsync.a bin/client_test
+tests: lib/libbtsync.a bin/client_test
 
 #
 # lib json-cpp

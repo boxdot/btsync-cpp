@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <boost/filesystem.hpp>
 #include "catch.hpp"
-#include "client.hpp"
+#include "btsync/client.hpp"
 
 #ifndef BTSYNC_LOGIN
 #define BTSYNC_LOGIN "api"

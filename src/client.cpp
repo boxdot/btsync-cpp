@@ -6,7 +6,7 @@
 #include <iostream>
 
 #include "json/json.h"
-#include "client.hpp"
+#include "btsync/client.hpp"
 
 using namespace std;
 using namespace Btsync;
